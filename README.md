@@ -1,6 +1,11 @@
 # PlanetsAR
  A closer guide to our entire solar system.
 
+
+# Download
+Play Store - [https://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR](https://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR)
+
+# About
 Welcome to Planets AR - A closer look at our Solar System! 
 
 <b><u>Experience</u></b><br>
@@ -25,3 +30,5 @@ Welcome to Planets AR - A closer look at our Solar System!
 🌟 Works best with Android devices that have <b>3GB RAM</b> and run on <b>Android 7.0 and above.</b><br>
 🌟 Use devices that support <b>ARCore for optimal performance.</b><br>
 🌟 An <b>AD-FREE</b> experience!
+
+[Privacy Policy](https://planetsar.agrmayank.com/privacypolicy.html) • [Terms and Conditions](https://planetsar.agrmayank.com/termsandconditions.html)
