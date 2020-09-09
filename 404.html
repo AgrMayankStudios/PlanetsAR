@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error | AgrMayank Studios</title>
+
+    <link rel="stylesheet" href="css/404.css">
+</head>
+<body>
+    <div>
+
+        <svg viewBox="0 0 1000 500">
+            <!--pattern-->
+            <defs>
+                <pattern id="GPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"
+                patternTransform="rotate(35)">
+                <animateTransform attributeType="xml" attributeName="patternTransform" type="rotate" from="35" to="395"
+                begin="0" dur="160s" repeatCount="indefinite" />
+                <circle cx="10" cy="10" r="10" stroke="none" fill="yellow">
+                    <animate attributeName="r" type="xml" from="1" to="1" values="1; 10; 1" begin="0s" dur="2s"
+                    repeatCount="indefinite" />
+                </circle>
+                </pattern>
+            </defs>
+            
+            <!-- Symbol -->
+            <symbol id="s-text">
+                <text text-anchor="middle" x="35%" y="30%" dy=".35em" transform="rotate(10)">
+                    4
+                </text>
+            </symbol>
+            <symbol id="v-text">
+                <text text-anchor="middle" x="50%" y="40%" dy=".35em" transform="rotate(-10)">
+                    0
+                </text>
+            </symbol>
+            <symbol id="g-text">
+                <text text-anchor="middle" x="75%" y="25%" dy=".35em" transform="rotate(10)">
+                    4
+                </text>
+            </symbol>
+            
+            <!-- Duplicate symbols -->
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#v-text" class="text1">
+                
+            </use>
+            <use xlink:href="#v-text" class="text1"></use>
+            <use xlink:href="#v-text" class="text1"></use>
+            
+            
+            <use id="g-usetag" xlink:href="#g-text" class="text2" style="fill: url(#GPattern)" />
+            </use>
+
+            <!-- Text Below 404 -->
+            <text style="font-size: xx-large;fill: #e9f2df;" text-anchor="middle" x="50%" y="60%"  transform="rotate(-5)">Error</text>
+
+            <a xlink:href="https://planetsar.agrmayank.com">
+                <text style="font-size: xxx-large;fill: #f4a503" text-anchor="middle" x="55%" y="70%" transform="rotate(5)">Go Home</text>
+            </a>
+        </svg>
+    </div>
+
+</body>
+</html>
