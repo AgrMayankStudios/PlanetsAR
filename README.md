@@ -1,7 +1,6 @@
 # PlanetsAR
  A closer guide to our entire solar system.
 
-
 # Download
 Play Store - [https://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR](https://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR)
 
